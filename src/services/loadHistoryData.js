@@ -3,7 +3,7 @@ import { Firestore } from '@google-cloud/firestore';
 const loadHistoryData = async () => {
   const db = new Firestore({
     keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS,
-    projectId: 'submissionmlgc-axel',
+    projectId: 'submissionmlgc-ara',
     databaseId: 'predictions',
   });
 
